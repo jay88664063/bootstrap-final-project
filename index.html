@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Boostrap Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" class="rel">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="assets/css/style.css" class="rel">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="d-flex">
+        <!-- -------------------------------------------Side Bar Start--------------------------------------------- -->
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <div class="sibebar-brand text-center pt-3 pb-5"><svg xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px"
+                        viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" fill="#2871e7">
+                        <path fill="#84aef2"
+                            d="M19.4,4.1l-9-4C10.1,0,9.9,0,9.6,0.1l-9,4C0.2,4.2,0,4.6,0,5s0.2,0.8,0.6,0.9l9,4C9.7,10,9.9,10,10,10s0.3,0,0.4-0.1l9-4     C19.8,5.8,20,5.4,20,5S19.8,4.2,19.4,4.1z">
+                        </path>
+                        <path
+                            d="M10,15c-0.1,0-0.3,0-0.4-0.1l-9-4c-0.5-0.2-0.7-0.8-0.5-1.3c0.2-0.5,0.8-0.7,1.3-0.5l8.6,3.8l8.6-3.8c0.5-0.2,1.1,0,1.3,0.5     c0.2,0.5,0,1.1-0.5,1.3l-9,4C10.3,15,10.1,15,10,15z">
+                        </path>
+                        <path
+                            d="M10,20c-0.1,0-0.3,0-0.4-0.1l-9-4c-0.5-0.2-0.7-0.8-0.5-1.3c0.2-0.5,0.8-0.7,1.3-0.5l8.6,3.8l8.6-3.8c0.5-0.2,1.1,0,1.3,0.5     c0.2,0.5,0,1.1-0.5,1.3l-9,4C10.3,20,10.1,20,10,20z">
+                        </path>
+                    </svg> <span class="text-light fs-5"> AppStack</span></div>
+                <h6 class="text-light ms-4 mb-3 fs-6">Pages</h6>
+
+                <ul class="text-left">
+                    <li class="mb-3 list1"><i class="fa-solid fa-bars text-light me-3 mb-3"></i><a href=""
+                            class="text-light">DashBoards
+                            <ul class="drop1">
+                                <li class="mb-3"><a href="" class="me-3 text-light">Deafaulttt</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Deafault</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Deafault</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Deafault</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Deafault</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="list2"><i class="fa-solid fa-book-open text-light me-3 mb-3"></i><a href=""
+                            class="text-light">Pages
+                            <ul class="drop2">
+                                <li class="mb-3"><a href="setting.html" class="text-light">Settings</a></li>
+                                <li class="mb-3"><a href="index.html" class="text-light">Profiel</a></li>
+                                <li class="mb-3"><a href="client.html" class="text-light">Clients</a></li>
+                                <li class="mb-3"><a href="project.html" class="text-light">Projects</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Invoice</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Pricing</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Tasks</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Chat</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Blank Page</a></li>
+                            </ul>
+                        </a></li>
+                    <li class="mb-3 list"><i class="fa-solid fa-user text-light me-3 mb-3"></i><a href=""
+                            class="sibebar-link text-light" data-bs-toggle="collapse" aria-expanded="true">Auth
+                            <ul class="drop">
+                                <li class="mb-3"><a href="sign.html" class="text-light">Sign In</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Sign Up</a></li>
+                                <li class="mb-3"><a href="" class="text-light">Reset Password</a></li>
+                                <li class="mb-3"><a href="" class="text-light">404 Page</a></li>
+                                <li class="mb-3"><a href="" class="text-light">500 Page</a></li>
+                            </ul>
+                        </a></li>
+                    <li class="mb-3"><a href="" class="text-light"><i
+                                class="fa-solid fa-book-open text-light me-3 mb-4"></i>
+                            Documentations</a></li>
+                    <li class="mb-3"><a href="" class="text-light">Tools & Components</a></li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-regular fa-heart"></i><a href=""
+                            class="text-light">Icons</a></li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-regular fa-square-check"></i><a href=""
+                            class="text-light">Forms</a></li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-solid fa-bars"></i><a href=""
+                            class="text-light">Tables</a></li>
+
+                    <li class="mb-4"><a href="" class="text-light">Plugins & aDDONS</a></li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-regular fa-square-check"></i><a href=""
+                            class="text-light">Forms-Plugin</a>
+                    </li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-solid fa-bars"></i><a href=""
+                            class="text-light">Advanced Tables</a></li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-solid fa-chart-pie"></i><a href=""
+                            class="text-light">Charts</a></li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-regular fa-bell"></i><a href=""
+                            class="text-light">Notifications</a></li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-solid fa-location-dot"></i><a href=""
+                            class="text-light">Locations</a>
+                    </li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-solid fa-calendar-days"></i><a href=""
+                            class="text-light">Calendar</a>
+                    </li>
+                    <li class="mb-3 text-light"><i class="me-3 fa-solid fa-arrow-right-to-bracket"></i><a href=""
+                            class="text-light">Multi-Level</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- --------------------------------------------Side Bar End--------------------------------------------------- -->
+        <!-------------------------------------------------NavBar start-------------------------------------------------------------->
+        <div class="w-100 px-2">
+            <div class="navbar navbar-bg navbar-expand align-items-center bg-light d-flex">
+                <span class="d-inline">
+                    <a class="show1"> <i class="fa-solid fa-bars"></i></a>
+                </span>
+                <div class="input d-none d-md-block">
+                    <input type="text" placeholder="Search Projects" class="p-1">
+                    <button type="button" class="btn"></button>
+                </div>
+                <div class="mx-auto"></div>
+                <div class=" d-flex gap-2 ms-auto align-items-center justify-content-end">
+                    <div class="nav-item">
+                        <a href=""><i class="fa-regular fa-comment"></i></a>
+                    </div>
+                    <div class="nav-item">
+                        <a href=""><i class="fa-regular fa-comment"></i></a>
+                    </div>
+                    <div class="nav-item">
+                        <a href=""><i class="fa-regular fa-comment"></i></a>
+                    </div>
+                    <div class="nav-item">
+                        <a href=""><i class="fa-regular fa-comment"></i></a>
+                    </div>
+
+                    <img src="https://appstack-react.bootlab.io/static/media/avatar.42a86687.jpg" alt=""
+                        class="rounded-circle" width="6%">
+                    <span>Chris Wood </span>
+                    <i class="fa-sharp fa-solid fa-chevron-down"></i>
+
+                </div>
+            </div>
+            <!-------------------------------------------------NavBar End---------------------------------------------------------------->
+            <!------------------------------------------------------Setting Start-------------------------------------------------->
+            <!-- <div class="container-fluid p-0">
+                    <h1>Settings</h1>
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="title">Profile Settings</div>
+                                </div>
+                                <div class="list-group">
+                                    <a href="" class="list-group-item active">Account</a>
+                                    <a href="" class="list-group-item ">Password</a>
+                                    <a href="" class="list-group-item ">Privacy and safety</a>
+                                    <a href="" class="list-group-item ">Email Notifications</a>
+                                    <a href="" class="list-group-item ">Web Notifications</a>
+                                    <a href="" class="list-group-item ">Widgets</a>
+                                    <a href="" class="list-group-item ">Your Data</a>
+                                    <a href="" class="list-group-item ">Delete Account</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <div class="title">Public Info</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <div class="mb-3">
+                                                <label for="" class="mb-2">Username</label>
+                                                <input type="text" placeholder="Username"
+                                                    class="w-100 p-1 form-control">
+                                            </div>
+                                            <div class="mb-2">
+                                                <label for="" class="mb-2">BioGraphy</label>
+                                                <input type="text" class="w-100 p-3 form-control"
+                                                    placeholder="Tell something about yourself">
+                                            </div>
+
+                                            <button class="btn-primary btn">Save Changes</button>
+
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="text-center">
+                                                <img src="https://appstack-react.bootlab.io/static/media/avatar.42a86687.jpg"
+                                                    alt="" class="rounded-circle img-fluid w-25">
+                                                <div class="mt-2">
+                                                    <button class="btn btn-primary" type="upload"><i class="fa-solid fa-arrow-up"></i>
+                                                        Upload</button>
+                                                </div>
+                                                <small>For best results, use an image at least 128px by 128px in .jpg
+                                                    format</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="title">Private Info</div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 mt-3">
+                                            <label for="" class="mb-2">First Name</label>
+                                            <input type="text" class="w-100 p-1 form-control mb-3"
+                                                placeholder="First Name">
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <label for="" class="mb-2">Last Name</label>
+                                            <input type="text" class="w-100 p-1 form-control" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="" class="mb-2">E-Mail</label>
+                                        <input type="email" placeholder="E-Mail" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="" class="mb-2">Address</label>
+                                        <input type="text" placeholder="1234 Main Street" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="" class="mb-2">Address 2</label>
+                                        <input type="text" placeholder="Apartment,Studio,Floor" class="form-control">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="mb-3">
+                                                <label for="">City</label>
+                                                <input type="text" class="p-1 w-100 form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="mt-0">
+                                                <label for="" class="d-block">State</label>
+                                                <input type="text" class="p-1 form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="mt-0">
+                                                <label for="">Zip</label>
+                                                <input type="text" class="p-1 form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn-primary btn">Save Changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            <!------------------------------------------------------Setting End---------------------------------------------------->
+            <!-------------------------------------------------------Table Start------------------------------------------------>
+            <!-- <div class="container-fluid">
+                <h1>Clients</h1>
+                <div class="row pe-sm-0">
+                  <div class="col-xl-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="title">Clients</div>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+                                                <td>#</td>
+                                                <td>Name</td>
+                                                <td>Company</td>
+                                                <td>Email</td>
+                                                <td>Status</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td class=""><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td class=""><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td class=""><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td class=""><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td class=""><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td class=""><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td class=""><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td class=""><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-2"><img
+                                                        src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                                        alt="" class="img-fluid rounded-circle" width="20%"></td>
+
+                                                <td class="">Angelica Ramos</td>
+                                                <td class="">The Wiz</td>
+                                                <td class=""> angelica@ramos.com</td>
+                                                <td class=""><span class="bg-primary ps-2 pe-2 rounded-3 fs-10 p-1 text-light fw-bold"> Active </span></td>
+                                            </tr>   
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div> 
+                    <div class="col-xl-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="title">
+                                    Angelica Ramos
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row g-0">
+                                    <div class="col-3 text-center">
+                                        <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg"
+                                            alt="" class="img-fluid rounded-circle w-50">
+                                    </div>
+                                    <div class="col-9">
+                                        <strong>About Me</strong>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                                <table class="table my-2">
+                                    <tbody>
+                                        <tr>
+                                            <td>Name</td>
+                                            <td>Angelio Ramos</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Company</td>
+                                            <td>The Wiz</td>
+                                        </tr>
+                                        <tr>
+                                            <td>E-Mail</td>
+                                            <td>angelica@ramos.com </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Phone</td>
+                                            <td>+1234123123123</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Status</td>
+                                            <td>Active</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="title">
+                                    Activity
+                                </div>
+                                <div class="card-body">
+                                    <ul class="p-0">
+
+                                        <li class="position-relative ps-3">
+                                            <strong>Signed Out</strong>
+                                            <span class="float-end">30 ago</span>
+                                            <p class="fs-13">Nam pretium turpis et arcu. Duis arcu tortor, suscipit...</p>
+                                        </li>
+                                        <li class="position-relative ps-3">
+                                            <strong>Signed Out</strong>
+                                            <span class="float-end">30 ago</span>
+                                            <p class="fs-13">Nam pretium turpis et arcu. Duis arcu tortor, suscipit...</p>
+                                        </li>
+                                        <li class="position-relative ps-3">
+                                            <strong>Signed Out</strong>
+                                            <span class="float-end">30 ago</span>
+                                            <p class="fs-13">Nam pretium turpis et arcu. Duis arcu tortor, suscipit...</p>
+                                        </li>
+                                        <li class="position-relative ps-3">
+                                            <strong>Signed Out</strong>
+                                            <span class="float-end">30 ago</span>
+                                            <p class="fs-13">Nam pretium turpis et arcu. Duis arcu tortor, suscipit...</p>
+                                        </li>
+                                        <li class="position-relative ps-3">
+                                            <strong>Signed Out</strong>
+                                            <span class="float-end">30 ago</span>
+                                            <p class="fs-13">Nam pretium turpis et arcu. Duis arcu tortor, suscipit...</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-------------------------------------------------------Table End------------------------------------------------->
+
+            <!--------------------------------------------------Project Strat------------------------------------------------->
+            <!-- <div class="pe-3 container-fluid">
+                <button class="btn-primary btn float-end"><i class="fa-solid fa-plus me-1"></i>New Project</button>
+                <h1>Projects</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-header br-bot">
+                                <div class="title">
+                                    Landing Page Design
+                                    <span class="bg-succcess d-block">Finished</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="mt-2">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                            </div>
+                            <div class="list-group mt-2 br-n">
+                                <div class="list-group-item">
+                                    <div class="mb-2">
+                                       <p> Progress
+                                        <span class="float-end">100%</span></p>
+                                        <div class="progress">
+                                            <div role="Progressbar" class="progress-bar" style="width: 100%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-header br-bot">
+                                <div class="title">
+                                    Landing Page Design
+                                    <span class="bg-succcess d-block">Finished</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="mt-2">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                            </div>
+                            <div class="list-group mt-2 br-n">
+                                <div class="list-group-item">
+                                    <div class="mb-2">
+                                       <p> Progress
+                                        <span class="float-end">75%</span></p>
+                                        <div class="progress">
+                                            <div role="Progressbar" class="progress-bar" style="width: 75%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-header br-bot">
+                                <div class="title">
+                                    Landing Page Design
+                                    <span class="bg-succcess d-block">Finished</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="mt-2">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                            </div>
+                            <div class="list-group mt-2 br-n">
+                                <div class="list-group-item">
+                                    <div class="mb-2">
+                                       <p> Progress
+                                        <span class="float-end">100%</span></p>
+                                        <div class="progress">
+                                            <div role="Progressbar" class="progress-bar" style="width: 100%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-header br-bot">
+                                <div class="title">
+                                    Landing Page Design
+                                    <span class="bg-succcess d-block">Finished</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="mt-2">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                            </div>
+                            <div class="list-group mt-2 br-n">
+                                <div class="list-group-item">
+                                    <div class="mb-2">
+                                       <p> Progress
+                                        <span class="float-end">50%</span></p>
+                                        <div class="progress">
+                                            <div role="Progressbar" class="progress-bar" style="width: 50%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-header br-bot">
+                                <img src="https://appstack-react.bootlab.io/static/media/unsplash-1.f6b3aeb0.jpg" alt="" width="100%" class="rounded-3">
+                                <div class="title">
+                                    Landing Page Design
+                                    <span class="bg-succcess d-block">Finished</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="mt-2">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                            </div>
+                            <div class="list-group mt-2 br-n">
+                                <div class="list-group-item">
+                                    <div class="mb-2">
+                                       <p> Progress
+                                        <span class="float-end">65%</span></p>
+                                        <div class="progress">
+                                            <div role="Progressbar" class="progress-bar" style="width: 65%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-header br-bot">
+                                <img src="https://appstack-react.bootlab.io/static/media/unsplash-1.f6b3aeb0.jpg" alt="" width="100%" class="rounded-3">
+                                <div class="title">
+                                    Landing Page Design
+                                    <span class="bg-succcess d-block">Finished</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="mt-2">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                            </div>
+                            <div class="list-group mt-2 br-n">
+                                <div class="list-group-item">
+                                    <div class="mb-2">
+                                       <p> Progress
+                                        <span class="float-end">20%</span></p>
+                                        <div class="progress">
+                                            <div role="Progressbar" class="progress-bar" style="width: 20%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-header br-bot">
+                                <img src="https://appstack-react.bootlab.io/static/media/unsplash-1.f6b3aeb0.jpg" alt="" width="100%" class="rounded-3">
+                                <div class="title">
+                                    Landing Page Design
+                                    <span class="bg-succcess d-block">Finished</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="mt-2">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                            </div>
+                            <div class="list-group mt-2 br-n">
+                                <div class="list-group-item">
+                                    <div class="mb-2">
+                                       <p> Progress
+                                        <span class="float-end">100%</span></p>
+                                        <div class="progress">
+                                            <div role="Progressbar" class="progress-bar" style="width: 100%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <div class="card-header br-bot">
+                                <img src="https://appstack-react.bootlab.io/static/media/unsplash-1.f6b3aeb0.jpg" alt="" width="100%" class="rounded-3">
+                                <div class="title">
+                                    Landing Page Design
+                                    <span class="bg-succcess d-block">Finished</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="mt-2">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                                <img src="https://appstack-react.bootlab.io/static/media/avatar-3.7ddfac87.jpg" alt="" class="rounded-circle me-2" width="8%">
+                            </div>
+                            <div class="list-group mt-2 br-n">
+                                <div class="list-group-item">
+                                    <div class="mb-2">
+                                       <p> Progress
+                                        <span class="float-end">00%</span></p>
+                                        <div class="progress">
+                                            <div role="Progressbar" class="progress-bar" style="width:0%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div> -->
+            <!--------------------------------------------------Project End--------------------------------------------------->
+            <!-- ----------------------------------------------------Chart JS Start--------------------------------------------->
+            <div class="content">
+                <div class="container-fluid p-0 d-flex">
+
+
+
+                    <!-- <div class="row mt-5 ">
+                    <div class="d-flex">
+                        <div class="card col-3 bg-1 me-4">
+                            <div class="w-100 gx-0 justify-content-start d-flex pt-5 pb-2">
+                                <div class="col-6 ">
+                                    <h4 class="fs text-start">Welcome back,Chris</h4>
+                                    <p>Appstack Dashboards</p>
+                                </div>
+                                <div class="col-6">
+                                    <img src="https://appstack-react.bootlab.io/static/media/customer-support.ed122f05.png"
+                                        alt="" width="50%">
+                                </div>
+                            </div>
+                
+                        </div>
+                        
+                            <div class="card col-3 bg-1 me-4">
+                                <div class="w-100 gx-0 justify-content-start d-flex pt-5 pb-2">
+                                    <div class="col-6 ">
+                                        <h4 class="fs text-start">Welcome back,Chris</h4>
+                                        <p>Appstack Dashboards</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="https://appstack-react.bootlab.io/static/media/customer-support.ed122f05.png"
+                                            alt="" width="50%">
+                                    </div>
+                                </div>
+                            </div>
+                       
+                     
+                            <div class="card col-3 bg-1 me-3">
+                                <div class="card-body d-flex">
+                                    <div class="flex-grow-1">
+                                        <h3>$ 24.300</h3>
+                                        <p>Total Earnings</p>
+                                        <div>
+                                            <span>+5.56%</span>
+                                            <span>Since last week</span>
+                                        </div>
+                                      
+                                    </div>
+                                    <div class="ms-3 d-inline">
+                                        <div class="dollar">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-success"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                       
+                            <div class="card col-3">
+                                <div class="card-body d-flex">
+                                    <div class="flex-grow-1">
+                                        <h3>$ 24.300</h3>
+                                        <p>Total Earnings</p>
+                                        <div>
+                                            <span>+5.56%</span>
+                                            <span>Since last week</span>
+                                        </div>
+                                      
+                                    </div>
+                                    <div class="ms-3 d-inline">
+                                        <div class="dollar">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="align-middle text-success"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                      
+                    </div>
+                </div>  -->
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div class="main w-100">
+
+                    <!-- Dashboard Start -->
+                    <section>
+                        <div class="content p-5">
+                            <div class="contianer-fluid">
+                                <div class="mb-2 mb-xl-3 row">
+                                    <div class="d-none d-sm-block col-auto">
+                                        <h3 style="color: rgb(73, 80, 87);">Dashboard</h3>
+                                    </div>
+                                    <div class="ms-auto text-end mt-n1 col-auto">
+                                        <div class="d-inline me-2 dropdown">
+                                            <button type="button"
+                                                class="btn btn-light bg-white shadow-sm dropdown-toggle"><i
+                                                    class="fa-regular fa-calendar"></i> Today</button>
+                                        </div>
+                                        <div class="shadow-sm d-inline">
+                                            <button type="button" class="btn btn-primary"><i
+                                                    class="fa-solid fa-filter"></i></button>
+                                        </div>
+                                        <div class="shadow-sm d-inline">
+                                            <button type="button" class="btn btn-primary"><i
+                                                    class="fa-solid fa-arrows-rotate"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="d-flex col-xl col-md-6 col-lg-3">
+                                    <div class="illustration flex-fill card">
+                                        <div class="p-0 d-flex flex-fill card-body">
+                                            <div class="g-0 w-100 row">
+                                                <div class="col-6">
+                                                    <div class="illustration-text p-3 m-1">
+                                                        <h4 class="illustration-text">Welcome back, Chris!</h4>
+                                                        <p class="mb-0">AppStack Dashboard</p>
+                                                    </div>
+                                                </div>
+                                                <div class="align-self-end text-end col-6"><img
+                                                        src="http://127.0.0.1:5500/admin/asset/image/customer-support.ed122f05.png"
+                                                        alt="Customer Support" class="img-fluid illustration-img"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex col-xl col-md-6 col-lg-3">
+                                    <div class="flex-fill card">
+                                        <div class=" py-4 card-body">
+                                            <div class="d-flex align-items-start">
+                                                <div class="flex-grow-1">
+                                                    <h3 class="mb-2">$ 24.300</h3>
+                                                    <p class="mb-2">Total Earnings</p>
+                                                    <div class="mb-0"><span
+                                                            class="badge-soft-success me-2 bg-info p-1 ps-2 rounded-3">+5.35%</span><span
+                                                            class="text-muted">Since last week</span></div>
+                                                </div>
+                                                <div class="d-inline-block ms-3">
+                                                    <div class="stat"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"
+                                                            class="align-middle text-success">
+                                                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                                                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
+                                                            </path>
+                                                        </svg></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex col-xl col-md-6 col-lg-3">
+                                    <div class="flex-fill card">
+                                        <div class=" py-4 card-body">
+                                            <div class="d-flex align-items-start">
+                                                <div class="flex-grow-1">
+                                                    <h3 class="mb-2">43</h3>
+                                                    <p class="mb-2">Pending Orders</p>
+                                                    <div class="mb-0"><span
+                                                            class="badge-soft-danger me-2 badge bg-info p-1 ps-2 rounded-3">-4.25%</span><span
+                                                            class="text-muted">Since last week</span></div>
+                                                </div>
+                                                <div class="d-inline-block ms-3">
+                                                    <div class="stat"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"
+                                                            class="align-middle text-success">
+                                                            <path
+                                                                d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z">
+                                                            </path>
+                                                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                                                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                                        </svg></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex col-xl col-md-6 col-lg-3">
+                                    <div class="flex-fill card">
+                                        <div class=" py-4 card-body">
+                                            <div class="d-flex align-items-start">
+                                                <div class="flex-grow-1">
+                                                    <h3 class="mb-2">$ 18.700</h3>
+                                                    <p class="mb-2">Total Revenue</p>
+                                                    <div class="mb-0"><span
+                                                            class="badge-soft-success me-2 badge bg-info p-1 ps-2 rounded-3">+8.65%</span><span
+                                                            class="text-muted">Since last week</span></div>
+                                                </div>
+                                                <div class="d-inline-block ms-3">
+                                                    <div class="stat"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"
+                                                            class="align-middle text-success">
+                                                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                                                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
+                                                            </path>
+                                                        </svg></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Chart JS -->
+                            <div class="row mt-3">
+                                <div class="d-flex col-lg-8">
+                                    <div class="flex-fill w-100 card">
+                                        <div class="card-header">
+                                            <div class="card-actions float-end">
+                                                <div class="dropdown"><a class="-" id="react-aria3751632370-19"
+                                                        aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg"
+                                                            width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round">
+                                                            <circle cx="12" cy="12" r="1"></circle>
+                                                            <circle cx="19" cy="12" r="1"></circle>
+                                                            <circle cx="5" cy="12" r="1"></circle>
+                                                        </svg></a>
+                                                    <div x-placement="bottom-end"
+                                                        aria-labelledby="react-aria3751632370-19"
+                                                        class="dropdown-menu dropdown-menu-end"
+                                                        data-popper-reference-hidden="false" data-popper-escaped="false"
+                                                        data-popper-placement="bottom-end"
+                                                        style="position: absolute; inset: 0px 0px auto auto; transform: translate3d(-521.5px, 344.5px, 0px);">
+                                                        <a data-rr-ui-dropdown-item="" class="dropdown-item"
+                                                            role="button" tabindex="0" href="#">Action</a><a
+                                                            data-rr-ui-dropdown-item="" class="dropdown-item"
+                                                            role="button" tabindex="0" href="#">Another
+                                                            Action</a><a data-rr-ui-dropdown-item=""
+                                                            class="dropdown-item" role="button" tabindex="0"
+                                                            href="#">Something else here</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-0 card-title h5">Sales / Revenue</div>
+                                        </div>
+                                        <div class="d-flex card-body">
+                                            <div class="align-self-center w-100">
+                                                <!-- ------------------------- chart js---------------------- -->
+                                                <canvas id="myChart" height="100px">
+                                                </canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex col-lg-4">
+                                    <div class="flex-fill w-100 card">
+                                        <div class="card-header"><span class="float-end badge bg-info">Today</span>
+                                            <div class="mb-0 card-title h5">Daily feed</div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="d-flex"><img
+                                                    src="http://127.0.0.1:5500/admin/asset/image/avatar-5.b309bbe2.jpg"
+                                                    width="36" height="36" class="rounded-circle me-2"
+                                                    alt="Ashley Briggs">
+                                                <div class="flex-grow-1"><small class="float-end text-navy">5m
+                                                        ago</small><strong>Ashley
+                                                        Briggs</strong> started following <strong>Stacie
+                                                        Hall</strong><br><small class="text-muted">Today 7:51
+                                                        pm</small><br></div>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex"><img
+                                                    src="http://127.0.0.1:5500/admin/asset/image/avatar.42a86687.jpg"
+                                                    width="36" height="36" class="rounded-circle me-2" alt="Chris Wood">
+                                                <div class="flex-grow-1"><small class="float-end text-navy">30m
+                                                        ago</small><strong>Chris
+                                                        Wood</strong> posted something on <strong>Stacie Hall</strong>'s
+                                                    timeline<br><small class="text-muted">Today 7:21 pm</small>
+                                                    <div class="border text-sm text-muted p-2 mt-1">Etiam rhoncus.
+                                                        Maecenas tempus,
+                                                        tellus
+                                                        eget condimentum rhoncus, sem quam semper libero, sit amet
+                                                        adipiscing...
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex"><img
+                                                    src="http://127.0.0.1:5500/admin/asset/image/avatar-4.93166a0c.jpg"
+                                                    width="36" height="36" class="rounded-circle me-2"
+                                                    alt="Stacie Hall">
+                                                <div class="flex-grow-1"><small class="float-end text-navy">1h
+                                                        ago</small><strong>Stacie
+                                                        Hall</strong> posted a new blog<br><small
+                                                        class="text-muted">Today 6:35
+                                                        pm</small>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="d-grid"><button type="button" class="btn btn-primary">Load
+                                                    more</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row  mt-3">
+                                <div class="d-flex col-xl-4 col-lg-6">
+                                    <div class="flex-fill w-100 card">
+                                        <div class="card-header">
+                                            <div class="card-actions float-end">
+                                                <div class="dropdown"><a class="-" id="react-aria1886789278-8"
+                                                        aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg"
+                                                            width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round">
+                                                            <circle cx="12" cy="12" r="1"></circle>
+                                                            <circle cx="19" cy="12" r="1"></circle>
+                                                            <circle cx="5" cy="12" r="1"></circle>
+                                                        </svg></a></div>
+                                            </div>
+                                            <div class="mb-0 card-title h5">Calendar</div>
+                                        </div>
+                                        <div class="wrapper">
+
+                                            <div class="container-calendar">
+                                                <h3 id="monthAndYear"></h3>
+
+                                                <div class="button-container-calendar">
+                                                    <button id="previous" onclick="previous()">&#8249;</button>
+                                                    <button id="next" onclick="next()">&#8250;</button>
+                                                </div>
+
+                                                <table class="table-calendar" id="calendar" data-lang="en">
+                                                    <thead id="thead-month"></thead>
+                                                    <tbody id="calendar-body"></tbody>
+                                                </table>
+
+                                                <div class="footer-container-calendar">
+                                                    <label for="month">Jump To: </label>
+                                                    <select id="month" onchange="jump()">
+                                                        <option value=0>Jan</option>
+                                                        <option value=1>Feb</option>
+                                                        <option value=2>Mar</option>
+                                                        <option value=3>Apr</option>
+                                                        <option value=4>May</option>
+                                                        <option value=5>Jun</option>
+                                                        <option value=6>Jul</option>
+                                                        <option value=7>Aug</option>
+                                                        <option value=8>Sep</option>
+                                                        <option value=9>Oct</option>
+                                                        <option value=10>Nov</option>
+                                                        <option value=11>Dec</option>
+                                                    </select>
+                                                    <select id="year" onchange="jump()"></select>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex d-inline col-lg-4">
+                                    <div class="doughnut shadow mt-4 py-4 px-4 ">
+                                        <div class="p-0 d-flex">
+                                            <div class=" row g-0 w-100">
+                                                <div class="doughnut-header d-flex justify-content-between">
+                                                    <h5 class="text-muted ">Weekly sales</h5>
+                                                    <i class="fa-solid fa-ellipsis fs-4 text-muted"></i>
+                                                </div>
+                                                <div style="height: 203px; width: 450px">
+                                                    <canvas id="myDoughnut"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <table class="table">
+                                            <thead>
+                                                <tr class="text-muted">
+                                                    <th scope="col">Source</th>
+                                                    <th scope="col"></th>
+                                                    <th scope="col">Revenue</th>
+                                                    <th scope="col">Value</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="text-muted ">
+                                                    <th scope="row"><i class="fa-solid fa-square "
+                                                            style="color: rgb(63,128,234);"></i> Direct</th>
+                                                    <td></td>
+                                                    <td>$ 2602</td>
+                                                    <td class="text-center text-success">+43%</td>
+                                                </tr>
+                                                <tr class="text-muted">
+                                                    <th scope="row"><i class="fa-solid fa-square"
+                                                            style="color: rgb(240,173,78);"></i> Affiliate
+                                                    </th>
+                                                    <td></td>
+                                                    <td>$ 1253</td>
+                                                    <td class="text-center text-success">+13%</td>
+                                                </tr>
+                                                <tr class="text-muted">
+                                                    <th scope="row"><i class="fa-solid fa-square"
+                                                            style="color: rgb(217,83,79)"></i> E-mail</th>
+                                                    <td></td>
+                                                    <td>$ 541</td>
+                                                    <td class="text-center text-success">+24%</td>
+                                                </tr>
+                                                <tr class="text-muted">
+                                                    <th scope="row"><i class="fa-solid fa-square"
+                                                            style="color: black;"></i> Other</th>
+                                                    <td></td>
+                                                    <td>$ 1465</td>
+                                                    <td class="text-center text-success">+11%</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="card d-flex col-xl-4 col-lg-6 ">
+                                    <div class="card-header">
+                                        <div class="title">
+                                            Activity
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="p-0">
+
+                                                <li class="position-relative ps-3">
+                                                    <strong>Signed Out</strong>
+                                                    <span class="float-end">30 ago</span>
+                                                    <p class="fs-13">Nam pretium turpis et arcu. Duis arcu tortor,
+                                                        suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed
+                                                        aliquam ultrices mauris...</p>
+                                                </li>
+                                                <li class="position-relative ps-3">
+                                                    <strong>Signed Out</strong>
+                                                    <span class="float-end">30 ago</span>
+                                                    <p class="fs-13">Sed aliquam ultrices mauris. Integer ante arcu,
+                                                        accumsan a, consectetuer eget, posuere ut, mauris. Praesent
+                                                        adipiscing. Phasellus ullamcorper ipsum rutrum nunc...</p>
+                                                </li>
+                                                <li class="position-relative ps-3">
+                                                    <strong>Signed Out</strong>
+                                                    <span class="float-end">30 ago</span>
+                                                    <p class="fs-13">Curabitur ligula sapien, tincidunt non, euismod
+                                                        vitae, posuere imperdiet, leo. Maecenas malesuada...</p>
+                                                </li>
+                                                <li class="position-relative ps-3">
+                                                    <strong>Signed Out</strong>
+                                                    <span class="float-end">30 ago</span>
+                                                    <p class="fs-13">Nam pretium turpis et arcu. Duis arcu tortor,
+                                                        suscipit eget, imperdiet nec, imperdiet iaculis, ipsum...</p>
+                                                </li>
+                                                <li class="position-relative ps-3">
+                                                    <strong>Signed Out</strong>
+                                                    <span class="float-end">30 ago</span>
+                                                    <p class="fs-13">Sed aliquam ultrices mauris. Integer ante arcu,
+                                                        accumsan a, consectetuer eget, posuere ut, mauris. Praesent
+                                                        adipiscing. Phasellus ullamcorper ipsum rutrum hsuhdc sjkhfjlsn  njilsdkjisd ksejdnfklsdamg jsfhnsd ijn fsvBUhuohnn nunc...</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="flex-fill w-100 card mt-3">
+                                <div class="card-header">
+                                    <div class="card-actions float-end">
+                                        <div class="dropdown"><a class="-" id="react-aria1886789278-11"
+                                                aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                    <circle cx="12" cy="12" r="1"></circle>
+                                                    <circle cx="19" cy="12" r="1"></circle>
+                                                    <circle cx="5" cy="12" r="1"></circle>
+                                                </svg></a></div>
+                                    </div>
+                                    <div class="mb-0 card-title h5">Latest Projects</div>
+                                </div>
+                                <table class="my-0 table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th class="d-none d-xl-table-cell">Start Date</th>
+                                            <th class="d-none d-xl-table-cell">End Date</th>
+                                            <th>Status</th>
+                                            <th class="d-none d-md-table-cell">Assignee</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Project Apollo</td>
+                                            <td class="d-none d-xl-table-cell">01/01/2021</td>
+                                            <td class="d-none d-xl-table-cell">31/06/2021</td>
+                                            <td><span class="badge bg-success">Done</span></td>
+                                            <td class="d-none d-md-table-cell">Carl Jenkins</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project Fireball</td>
+                                            <td class="d-none d-xl-table-cell">01/01/2021</td>
+                                            <td class="d-none d-xl-table-cell">31/06/2021</td>
+                                            <td><span class="badge bg-danger">Cancelled</span></td>
+                                            <td class="d-none d-md-table-cell">Bertha Martin</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project Hades</td>
+                                            <td class="d-none d-xl-table-cell">01/01/2021</td>
+                                            <td class="d-none d-xl-table-cell">31/06/2021</td>
+                                            <td><span class="badge bg-success">Done</span></td>
+                                            <td class="d-none d-md-table-cell">Stacie Hall</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project Nitro</td>
+                                            <td class="d-none d-xl-table-cell">01/01/2021</td>
+                                            <td class="d-none d-xl-table-cell">31/06/2021</td>
+                                            <td><span class="badge bg-warning">In progress</span></td>
+                                            <td class="d-none d-md-table-cell">Carl Jenkins</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project Phoenix</td>
+                                            <td class="d-none d-xl-table-cell">01/01/2021</td>
+                                            <td class="d-none d-xl-table-cell">31/06/2021</td>
+                                            <td><span class="badge bg-success">Done</span></td>
+                                            <td class="d-none d-md-table-cell">Bertha Martin</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project Romeo</td>
+                                            <td class="d-none d-xl-table-cell">01/01/2021</td>
+                                            <td class="d-none d-xl-table-cell">31/06/2021</td>
+                                            <td><span class="badge bg-success">Done</span></td>
+                                            <td class="d-none d-md-table-cell">Ashley Briggs</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project Wombat</td>
+                                            <td class="d-none d-xl-table-cell">01/01/2021</td>
+                                            <td class="d-none d-xl-table-cell">31/06/2021</td>
+                                            <td><span class="badge bg-warning">In progress</span></td>
+                                            <td class="d-none d-md-table-cell">Bertha Martin</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project Zircon</td>
+                                            <td class="d-none d-xl-table-cell">01/01/2021</td>
+                                            <td class="d-none d-xl-table-cell">31/06/2021</td>
+                                            <td><span class="badge bg-danger">Cancelled</span></td>
+                                            <td class="d-none d-md-table-cell">Stacie Hall</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                    </section>
+                    <!-- Dashboard End -->
+                </div>
+            </div>
+            <!-- ----------------------------------------------------Chart JS End----------------------------------------------->
+            <!--------------------------------------------------Footer Strat------------------------------------------>
+            <footer>
+                <div class="container-fluid d-flex justify-content-between">
+                    <div class="text-muted col-6">
+                        <ul class="d-flex">
+                            <li>Support</li>
+                            <li>Help Center</li>
+                            <li>Privacy</li>
+                            <li>Terms And Conditions</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 text-muted">
+                        <p>2020 - Appstack</p>
+                    </div>
+                </div>
+            </footer>
+            <!--------------------------------------------------Footer End-------------------------------------------->
+        </div>
+    </div>
+    <!-- Boostrap Js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [54, 67, 41, 55, 62, 45, 55, 73, 60, 76, 48, 79],
+                    backgroundColor: "red",
+                    barThickness:15,
+                    borderWidth: 1,
+                }, {
+                    label: '# of Votes',
+                    data: [54, 67, 41, 55, 62, 45, 55, 73, 60, 76, 48, 79],
+                    backgroundColor: "green",
+                    barThickness:15,
+                    borderRadius: 5,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        stacked: true
+                    }, x: {
+                        stacked: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.list').click(function () {
+                $('.drop').slideToggle(500);
+            });
+
+            $('.list1').click(function () {
+                $('.drop1').slideToggle(500);
+
+            });
+            $('.list2').click(function () {
+                $('.drop2').slideToggle(500);
+
+            });
+            $('.show1').click(function () {
+                $('.sidebar').toggleClass('hide')
+                $('.col-10').addClass('w-100')
+
+
+            });
+            // $('.show1').click(function(){
+            //     $('.sidebar').addClass('show1')
+            //     $('.col-10').removeClass('w-100')
+            // });
+        });
+    </script>
+</body>
+
+</html>
